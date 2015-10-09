@@ -17,7 +17,7 @@ positional arguments:
   UDP_PORT       udp port for source
 ```
 
-For example, the following will listen for udp packages at port 2011 and relay them to ampqserver.local on port 5672:
+For example, the following will listen for udp packages at port 2011 and relay them to myampqserver.local on port 5672:
 ```
 .\udp2amqp.py "amqp://username:password@myampqserver.local:5672" 2011 
 ```
